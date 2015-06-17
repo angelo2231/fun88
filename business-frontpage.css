@@ -1,0 +1,181 @@
+/*!
+ * Start Bootstrap - Business Frontpage HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 80px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.business-header {
+    height: 432px;
+   /* background: url('http://placehold.it/1920x400') center center no-repeat scroll;*/ background:url(../images/bg.jpg) center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #25aae1; font-weight:900; font-size:36px
+}
+
+.bonusfont{color:#fff}
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.logo{ margin-top:10px;}
+.betway{ margin-top:10px;}
+.font1{ color:#fff}
+
+.angelo ul  { margin-left: 0; 
+              padding-left: 0; 
+			  list-style-type: none;
+			  } 
+			  
+.angelo li{   color:#fff; 
+              display: block; 
+			  font-size:18px;  
+			  padding-left:0;
+			  list-style-type: none; 
+			  list-style-position:inside;
+         }
+
+.buttoncolorgreen{ background:#8fc714; color:#fff; font-size:18px; padding:16px;}
+.buttoncolorgreen:hover{ background:#7bae0a; color:#fff;  }
+
+.buttoncolorgreen2{ background:#8fc714; color:#fff; font-size:14px; padding:5px; margin :20px 0 0 5px;;}
+.buttoncolorgreen2:hover{ background:#7bae0a; color:#fff;  }		 
+
+.mobile{}
+.buttoncasino{ border:#CCC solid 1px}
+
+.navbar-toggle{ margin-top:20px; }
+
+
+.partner img:hover{
+-webkit-filter: none;
+   -moz-filter: none;
+   -ms-filter: none;
+   filter: none;
+}
+.partner img{
+
+   
+   filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */    
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   filter: grayscale(100%);
+   filter: gray; /* IE 6-9 */
+}
+
+@media (max-width:768px) {
+	
+	.logo { width:130px;}
+	.betway{ width:130px;}
+	
+	.business-header {
+    height: 432px;
+   /* background: url('http://placehold.it/1920x400') center center no-repeat scroll;*/
+    background:url(../images/bg.jpg) center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+	 
+	
+	}
+	
+@media (max-width:480px) {
+	
+	.logo { width:130px;}
+	.betway{ display:none}
+	.angelo li{color:#fff; 
+	            
+			   font-size:12px;  
+			   
+         }
+		 
+	.tagline {text-shadow: 0 0 10px #000;
+              color: #25aae1;
+			  font-weight:900;
+			  font-size:18px }
+
+     .bonusfont{color:#fff; font-size:16px; font-weight:900}
+	 
+	 
+	 .business-header {
+    height: 432px;
+   /* background: url('http://placehold.it/1920x400') center center no-repeat scroll;*/
+    background:url(../images/bg.jpg) center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+	}
+	
+@media (max-width:320px) {
+	
+	.logo { width:130px;}
+	.betway{ display:none}
+	
+	.font1{ color:#fff; font-size:12px}
+	.tagline {text-shadow: 0 0 10px #000;
+              color: #25aae1;
+			  font-weight:900;
+			  font-size:24px 
+			  }
+
+     .bonusfont{color:#fff;
+	            font-size:24px; 
+				font-weight:900
+				}
+	 
+	 .angelo li{color:#fff;   font-size:10px;  
+         }
+		 
+		 
+		 .business-header {
+    height: 462px;
+   /* background: url('http://placehold.it/1920x400') center center no-repeat scroll;*/
+    background:url(../images/bg.jpg) center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+	}	
+	
+/*	@media (max-width: 768px) {
+  .btn-responsive {
+    padding:2px 4px;
+    font-size:80%;
+    line-height: 1;
+    border-radius:3px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .btn-responsive {
+    padding:4px 9px;
+    font-size:90%;
+    line-height: 1.2;
+  }
+}
+*/
